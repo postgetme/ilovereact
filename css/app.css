@@ -10,6 +10,21 @@ body {
   overflow: scroll;
 }
 
+body, div, span {
+  box-sizing: border-box;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  flex-shrink: 0;
+  align-content: flex-start;
+
+  border: 0 solid black;
+  margin: 0;
+  padding: 0;
+}
+
 h1 {
   font-size: 64px;
   font-weight: 100;
@@ -42,21 +57,18 @@ a:hover {
 }
 
 .section1 {
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 .logo {
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 .nav-bar {
-  display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -67,7 +79,6 @@ a:hover {
 }
 
 .section2, .section3, .section4 {
-  display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -77,7 +88,6 @@ a:hover {
   flex-grow: 1;
   align-self: stretch;
   flex-basis: 0;
-  display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -88,7 +98,6 @@ a:hover {
   flex-grow: 1;
   align-self: stretch;
   flex-basis: 0;
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
