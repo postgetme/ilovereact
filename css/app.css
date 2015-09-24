@@ -109,7 +109,7 @@ a:hover {
   padding-right: 180px;
 }
 
-#tumblr-demo {
+#tumblr-demo, #swype-demo {
   position: absolute;
   top: 90px;
   left: 25px;
